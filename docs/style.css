@@ -1,0 +1,26 @@
+/* 导航：默认 */
+nav.app-nav li ul {
+  /* 适配不同的css索引 */
+  min-width: 100px;
+  /* min-width: 140px; */
+}
+
+#carbonads {
+  box-shadow: none !important;
+  width: auto !important;
+}
+
+/* 导航：自定义 */
+nav .nav_languageBtn {
+  /* background: red; */
+  width: 88+12px; /* 规避小屏幕下中文不能在一行显示*/
+  height: 44px;
+  font-size: 16px;
+}
+
+nav .nav_downloadPdfBtn {
+  /* background: red; */
+  width: 88+12px;
+  height: 44px;
+  font-size: 16px;
+}
